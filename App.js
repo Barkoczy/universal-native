@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { supabase } from './app/lib/supabase';
 
 import WelcomeScreen from './app/screens/WelcomeScreen';
-import SingupScreen from './app/screens/SingupScreen';
+import SignupScreen from './app/screens/SignupScreen';
 
 export default function App() {
   const [auth, setAuth] = useState({});
@@ -19,7 +19,7 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      {auth ? <WelcomeScreen /> : <SingupScreen />}
+      {auth ? <WelcomeScreen /> : <SignupScreen />}
     </NavigationContainer>
   );
 }

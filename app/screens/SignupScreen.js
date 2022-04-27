@@ -7,16 +7,16 @@ import {
 function SignupScreen(props) {
   return (
     <ImageBackground
-      style={styles.backgroud}
-      source={require("../assets/background.jpg")}
+      style={styles.background}
+      source={require("../assets/img/background.jpg")}
     ></ImageBackground>
   );
 }
 
 const styles = StyleSheet.create({
-  backgroud: {
+  background: {
     flex: 1
   }
 })
 
-export default WelcomeScreen;
+export default SignupScreen;
