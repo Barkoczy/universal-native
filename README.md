@@ -4,7 +4,7 @@ Mobile App Development with React Native & Expo.
 
 ## Bring up local development
 
-Install
+Install with use npm or yarn
 
 ```shell
 npm install
@@ -18,4 +18,16 @@ Fix dependencies
 
 ```shell
 expo doctor --fix-dependencies
+```
+
+Start
+
+```shell
+npm start
+```
+
+or
+
+```shell
+expo start
 ```
